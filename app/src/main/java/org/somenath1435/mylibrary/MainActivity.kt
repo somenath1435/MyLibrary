@@ -23,27 +23,27 @@ class MainActivity : AppCompatActivity() {
         val n1 = num1.text.toString().toInt()
         val n2 = num2.text.toString().toInt()
         val ans = MathUtils.add(n1, n2)
-        Toast.makeText(this, "Result is $ans", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "Sum is $ans", Toast.LENGTH_LONG).show()
     }
 
     fun sub(view: View) {
         val n1 = num1.text.toString().toInt()
         val n2 = num2.text.toString().toInt()
         val ans = MathUtils.sub(n1, n2)
-        Toast.makeText(this, "Result is $ans", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "Difference is $ans", Toast.LENGTH_LONG).show()
     }
 
     fun mul(view: View) {
         val n1 = num1.text.toString().toInt()
         val n2 = num2.text.toString().toInt()
         val ans = MathUtils.mul(n1, n2)
-        Toast.makeText(this, "Result is $ans", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "Product is $ans", Toast.LENGTH_LONG).show()
     }
 
     fun div(view: View) {
         val n1 = num1.text.toString().toInt()
         val n2 = num2.text.toString().toInt()
         val ans = MathUtils.div(n1, n2)
-        Toast.makeText(this, "Result is $ans", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "Quotient is $ans", Toast.LENGTH_LONG).show()
     }
 }
